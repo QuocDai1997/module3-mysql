@@ -1,0 +1,11 @@
+SELECT * FROM `db.quanlyhocvien`.student;
+insert into `db.quanlyhocvien`.student (fullname, address_id, age, phone, classes_id) value ('Dai', 1, 26, 0333013187,1);
+insert into `db.quanlyhocvien`.student (fullname, address_id, age, phone, classes_id) value ('Đức', 2, 24, 0333013186,1);
+insert into `db.quanlyhocvien`.student (fullname, address_id, age, phone, classes_id) value ('Quý', 3, 27, 0333013185,2);
+insert into `db.quanlyhocvien`.student (fullname, address_id, age, phone, classes_id) value ('Phúc', 4, 26, 0333013184,5);
+insert into `db.quanlyhocvien`.student (fullname, address_id, age, phone, classes_id) value ('Phú Lê', 5, 25, 0333013183,4);
+insert into `db.quanlyhocvien`.student (fullname, address_id, age, phone, classes_id) value ('Quang', 1, 31, 0333013182,2);
+insert into `db.quanlyhocvien`.student (fullname, address_id, age, phone, classes_id) value ('Nghĩa', 2, 24, 0333013181,3);
+insert into `db.quanlyhocvien`.student (fullname, address_id, age, phone, classes_id) value ('Châu', 3, 21, 0333013180,4);
+insert into `db.quanlyhocvien`.student (fullname, address_id, age, phone, classes_id) value ('Cao', 4, 20, 0333013188,1);
+insert into `db.quanlyhocvien`.student (fullname, address_id, age, phone, classes_id) value ('Giáo', 1, 23, 0333013189,3);

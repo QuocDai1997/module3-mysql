@@ -1,16 +1,7 @@
 SELECT * FROM `db.quanlyhocvien`.point;
-insert into point (course_id, student_id, point) values (1,21,80);
-insert into point (course_id, student_id, point) values (2,22,90);
-insert into point (course_id, student_id, point) values (3,23,70);
-insert into point (course_id, student_id, point) values (4,24,60);
-insert into point (course_id, student_id, point) values (5,25,50);
-insert into point (course_id, student_id, point) values (1,26,80);
-insert into point (course_id, student_id, point) values (2,21,40);
-insert into point (course_id, student_id, point) values (3,21,80);
-insert into point (course_id, student_id, point) values (4,27,80);
-insert into point (course_id, student_id, point) values (5,28,80);
-insert into point (course_id, student_id, point) values (1,29,80);
-insert into point (course_id, student_id, point) values (2,30,80);
-insert into point (course_id, student_id, point) values (3,31,80);
-insert into point (course_id, student_id, point) values (4,25,80);
-insert into point (course_id, student_id, point) values (5,26,80);
+
+SELECT AVG(point) as DIEM_TRUNG_BINH from point;
+
+SELECT MAX(point) as DIEM_CAO_NHAT FROM point;
+
+SELECT MIN(point) as DIEM_THAP_NHAT FROM point;
